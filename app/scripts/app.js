@@ -10,12 +10,12 @@
              url: '/',
              templateUrl: '/templates/landing.html'
                 })
-         .state('album', {
+                .state('album', {
              url: '/album',
              templateUrl: '/templates/album.html'
          })
-          .state('collection', {
-             url: '/collection,
+         .state('collection', {
+             url: '/collection',
              templateUrl: '/templates/collection.html'
                 });
      }
@@ -23,3 +23,4 @@
          .module('blocJams', ['ui.router'])
          .config(config);
  })();
+
