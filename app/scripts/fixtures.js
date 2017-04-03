@@ -1,6 +1,6 @@
 
 var albumPicasso = {
-     title: 'The Colors',
+     name: 'The Colors',
      artist: 'Pablo Picasso',
      label: 'Cubism',
      year: '1881',
@@ -28,3 +28,4 @@ var albumPicasso = {
          { title: 'Wrong phone number', duration: '2:15' }
      ]
  };
+
