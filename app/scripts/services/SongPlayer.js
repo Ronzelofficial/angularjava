@@ -59,7 +59,7 @@ SongPlayer.currentSong = null;
  * @type {Number}
  */
  SongPlayer.currentTime = null;
- SongPlayer.volume = null;
+ SongPlayer.volume = 100;
          
     SongPlayer.play = function(song) {
         song = song || SongPlayer.currentSong;
